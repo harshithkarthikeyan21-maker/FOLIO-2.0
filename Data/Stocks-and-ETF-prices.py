@@ -40,5 +40,3 @@ def return_live_prices(ticker):
     except Exception as e:
         print(f"CRITICAL ERROR FETCHING LIVE PRICE FOR {ticker}: {e}")
         return None
-    
-print(return_live_prices("AAPL"))
